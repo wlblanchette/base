@@ -46,6 +46,7 @@
    * Stuff to run after page load is complete.
    */
   $(document).ready(function() {
+
     // Place functions here
   });
 
