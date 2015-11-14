@@ -5,5 +5,39 @@
  *   logically grouped and seperated by a comment describing the component, how
  *   it interacts with other components, and how it can be modified.
  */
+body {
+  background-image: url(../img/bg/ScrollBG.png);
+  background-size: cover;
+  background-position-y: 0px;
+  height: 10000px;
+  width: 5000px;
+  /*transition: background-position-y 2s;*/ }
+
+h1.intro {
+  color: #ddd;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-50%); }
+
+.wb-content {
+  background-image: url(../img/svg/wb-design-bg-v3.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  top: 0%;
+  bottom: 0%;
+  height: 100%;
+  position: fixed;
+  width: 100%; }
+
+body::before {
+  display: block;
+  content: "";
+  height: inherit;
+  width: inherit;
+  background-size: cover;
+  background-color: rgba(30, 30, 30, 0.5); }
 
 /*# sourceMappingURL=component.css.map */
